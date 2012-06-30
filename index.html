@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=1">
+    <title>HTC Desire S</title>
+    
+    <!-- Sencha Library -->
+    <link rel="stylesheet" href="lib/sencha-touch.css" type="text/css">
+    <script type="text/javascript" src="lib/sencha-touch.js"></script>
+    
+    <!-- jQuery Library -->
+    <script type="text/javascript" src="lib/jquery-1.5.min.js"></script>
+    
+    <!-- TimeTracker Library -->
+    <script type="text/javascript" src="lib/time-tracker.js"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/base.css" type="text/css">
+    
+    <!-- Javascript --> 
+    <script type="text/javascript" src="js/start.js"></script> 
+    <script type="text/javascript" src="js/clickEvent.js"></script> 
+    <script type="text/javascript" src="js/multiCarousel.js"></script>
+    <script type="text/javascript" src="js/detect.js"></script>
+    <script type="text/javascript" src="js/splash.js"></script>
+    <script type="text/javascript" src="js/youTubeLoader.js"></script>
+    <script type="text/javascript" src="js/eventTracking.js"></script>
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-22826910-1']);
+    _gaq.push(['_trackPageview']);
+ 
+    
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+</head>
+<body onload="onload()">
+	<!-- ======= SplashScreen ======= -->
+	<!-- WhiteBlock -->
+	<div id="fullScreenWhiteBlock" class="fullScreenWhiteBlock"></div>
+	<!-- HTC Logo -->
+	<div id="logoFont" class="logoFont"></div>
+	<!-- blank phone -->
+	<div id="blankPhone" class="blankPhone"></div>
+	<!-- phone with Content-->
+	<div id="phoneWithContent" class="phoneWithContent"></div>
+	<!-- HTC Sense Hand-->
+	<div id="htcSenseHand" class="htcSenseHand"></div>
+	<!-- Globe Hand-->
+	<div id="globeHand" class="globeHand"></div>
+	<!-- Camera Hand-->
+	<div id="cameraHand" class="cameraHand"></div>
+	
+	<!-- ======= Top Screen ======= -->
+	<div class="displayNone">
+    <div id="content">
+    	<!-- WhiteBlock -->
+    	<!-- <div class="horizontalWhiteBlock"></div> -->
+    	<!-- <div class="verticalWhiteBlock"></div> -->
+    	<div class="bottomHorizontalBlock"></div>
+    	<div class="rightVerticalBlock"></div>
+    	<div class="topRightVerticalBlock"></div>
+    	<div class="rightBlock"></div>
+    	<!-- Camera -->
+    	<div id="camera" class="camera">
+    		<a href="#"></a>
+    	</div>
+    	<!-- Web -->
+    	<div id="web" div class="web">
+    		<a href="#"></a>
+    	</div>
+    	<!-- Gift -->
+    	<div id="gift" div class="gift">
+    		<a href="#"></a>
+    	</div>
+    	<!-- Circle of features -->
+    	<div id="circleOfFeatures" class="features"></div>
+    	<!-- Feature 1 -->
+    	<div id="feature1" class="feature1"></div>
+    	<!-- Feature 2 -->
+    	<div id="feature2" class="feature2"></div>
+    	 <!-- Feature 3 -->
+    	<div id="feature3" class="feature3"></div>
+        <!-- Logo -->
+        <div class="logo"></div>
+         <!-- DesireLogo -->
+        <div class="desireLogo"></div>
+        <!-- CameraDescription -->
+        <div id="cameraDescription" div class="description">
+        	<div class="title">Memories, now in HD</div>
+        	<p>You can now capture any moment wherever you are because your phone is now a quality camera. The improved HTC Desire S comes with an impressive, all-in-one camera and HD video recorder to capture and replay all your moments in crystal clear clarity.</p>
+        </div>
+        <!-- WebDescription -->
+        <div id="webDescription" div class="description" style="opacity: 0">
+        	<div class="title">Evolved browsing, smarter and faster</div>
+        	<p>Visit all your favorite websites from the palm of your hand. Need to see something more up close? Simply pinch the screen to zoom in or out of a page, and watch the text reflow automatically to perfectly fit your screen. Run into something that sparks your curiosity? Just press on the screen to highlight text and quickly look it up on Google, Wikipedia, YouTube or the dictionary.</p>
+        </div>
+        <!-- GiftDescription -->
+        <div id="giftDescription" div class="description" style="opacity: 0">
+        	<div class="title">The phone of the year has evolved</div>
+        	<p>What happens when you take a multi award-winning smartphone like HTC Desire and improve it? You end up with HTC Desire S, showcasing a spacious 3.7 inch screen, a stronger and slimmer unibody design, with a heightened sense of intelligence, speed and clarity. It's reliability on a whole new level.</p>
+        </div>
+        <!-- Video -->
+    	<div id="video" class="video">
+    		<a href="#"></a>
+    	</div>
+    	<!-- Video Content -->
+    	<!-- <div class="displayNone"> -->
+    	<div id="player"></div>
+    	<!-- </div> -->
+        <!-- HTC Sense -->
+        <div class="htcSense">
+        	<div class="title">HTC Sense</div>
+        	<p>HTC Sense is an experience designed around many little insightful ideas. Ideas that seem so simple, you think "why hasn't any one else thought of that? It just makes sense." It's a phone experience full of lots of little surprises, delightling you every time.</p>
+        </div>
+    </div>
+    </div>
+    
+    <!-- ======= Bottom Screen ======= -->
+    <!-- -Page 1 -->
+    <div class="displayNone">
+    <div class="entry"> 
+    	<div class="htcSenseDescriptionBgGround">
+    		<div class="htcDescription">
+    			<div class="title">Weather and Clock</div>
+    			<p>You travel and the weather and clock update automatically.</p>
+    		</div>
+    		<div class="weatherAndClock"></div>
+    		<div class="swipeRight"></div>
+    	</div>
+    </div>
+    <!-- Page 2 -->
+    <div class="entry">
+    	<div class="htcSenseDescriptionBgGround">
+    		<div class="htcDescription">
+    			<div class="title">People-centric Communication</div>
+    			<p>All your calls, messages and updates are organized by people, not by applications.</p>
+    		</div>
+    		<div class="peopleCentric"></div>
+    		<div class="swipeRight"></div>
+    		<div class="swipeLeft"></div>
+    	</div>
+    </div>
+    <!-- Page 3 -->
+    <div class="entry"> 
+    	<div class="htcSenseDescriptionBgGround">
+    		<div class="htcDescription">
+    			<div class="title">Customizable Homescreen</div>
+    			<p>Add everything that is important to you to your homescreen.</p>
+    		</div>
+    		<div class="customizableHomescreen"></div>
+    		<div class="swipeRight"></div>
+    		<div class="swipeLeft"></div>
+    	</div>
+    </div>
+    <!-- Page 4 -->
+    <div class="entry"> 
+    	<div class="htcSenseDescriptionBgGround">
+    		<div class="htcDescription">
+    			<div class="title">Scenes</div>
+    			<p>Create and change between your perfect phone for work, home or holiday.</p>
+    		</div>
+    		<div class="scenes"></div>
+    		<div class="swipeRight"></div>
+    		<div class="swipeLeft"></div>
+    	</div>
+    </div>
+    <!-- Page 5 -->
+    <div class="entry"> 
+    	<div class="htcSenseDescriptionBgGround">
+    		<div class="htcDescription">
+    			<div class="title">Friend Stream</div>
+    			<p>See all your friends' Facebook© updates, Tweets and Flickr® photos on the same screen.</p>
+    		</div>
+    		<div class="friendStream"></div>
+    		<div class="swipeRight"></div>
+    		<div class="swipeLeft"></div>
+    	</div>
+    </div>
+    <!-- Page 6 -->
+    <div class="entry"> 
+    	<div class="htcSenseDescriptionBgGround">
+    		<div class="htcDescription">
+    			<div class="title">Easy Reading and Browsing</div>
+    			<p>Zoom in on a webpage and the text changes size and reflows automatically to make it easier to read.</p>
+    		</div>
+    		<div class="easyReading"></div>
+    		<div class="swipeRight"></div>
+    		<div class="swipeLeft"></div>
+    	</div>
+    </div>
+    <!-- Page 7 -->
+    <div class="entry"> 
+    	<div class="htcSenseDescriptionBgGround">
+    		<div class="htcDescription">
+    			<div class="title">Feed Your Brain</div>
+    			<p>Ever been curious about something you read? A simple tap and hold lets you search any word or phrase selection in Wikipedia, Google, YouTube or the dictionary.</p>
+    		</div>
+    		<div class="feedYourBrain"></div>
+    		<div class="swipeRight"></div>
+    		<div class="swipeLeft"></div>
+    	</div>
+    </div>
+    <!-- Page 8 -->
+    <div class="entry"> 
+    	<div class="htcSenseDescriptionBgGround">
+    		<div class="htcDescription">
+    			<div class="title">No More Awkward Moments</div>
+    			<p>Ever fumbled with your phone because it went off at full-blast during a meeting? Well, don’t worry! Now as soon as you lift your phone up to see who’s calling, the ringer volume gets lower. Want it silenced completely? Just flip it over.</p>
+    		</div>
+    		<div class="awkardMoments"></div>
+    		<div class="swipeRight"></div>
+    		<div class="swipeLeft"></div>
+    	</div>
+    </div>
+    <!-- Page 9 -->
+    <div class="entry"> 
+    	<div class="htcSenseDescriptionBgGround">
+    		<div class="htcDescription">
+    			<div class="title">No More Missed Calls</div>
+    			<p>When you don’t want to miss that special call, your phone knows when and how to get your attention. If it’s in your bag, for example, it will know to ring louder.</p>
+    		</div>
+    		<div class="missCalls"></div>
+    		<div class="swipeLeft"></div>
+    	</div>
+    </div>
+    </div>
+</body>
+</html>

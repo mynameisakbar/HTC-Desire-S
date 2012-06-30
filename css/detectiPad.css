@@ -1,0 +1,60 @@
+body {background-color:#FFFFFF;}
+/* panel */
+.baseCss {background-color: #FFFFFF;} 
+/* circle of features */
+.features { top: -680px; left: -260px; position: absolute; display: block; width: 1200px; height: 1200px; background: url(../images/iPad/features/features-wheel.png) no-repeat; z-index: 2}
+.feature2 { display: none;}
+.feature3 { display: none;}
+/* Feature description */
+.description { top: 475px; left: 35px; position: absolute; display: block; width: 700px; height: 110px; background-color:#FFFFFF; opacity: 1; -webkit-transition: opacity 1s linear; font-size: 14px; font-family: Arial, Helvetica, sans-serif; z-index: 4; }
+/* logo*/
+.desireLogo { top: 20px; left: 560px; position: absolute; display: block; width: 186px; height: 99px; background: url(../images/iPad/logo/desire_Logo.png) no-repeat; z-index: 4}
+.logo { top: 0px; left: 0px; position: absolute; display: block; width: 183px; height: 115px; background: url(../images/iPad/logo/htc-logo.png) no-repeat; z-index: 4}
+/* white block*/
+.horizontalWhiteBlock { top: 0px; left: 0px; position: absolute; display: block; width: 163px; height: 105px; background: url(../images/common/whiteBlock.png) repeat; z-index: 3}
+.verticalWhiteBlock { top: 0px; left: 0px; position: absolute; display: block; width: 1024px; height: 95px; background: url(../images/common/whiteBlock.png) repeat; z-index: 3}
+.bottomHorizontalBlock { top: 475px; left: 0px; position: absolute; display: block; width: 700px; height: 150px; background: url(../images/common/whiteBlock.png) repeat; z-index: 3}
+.rightVerticalBlock { top: 0px; left: 565px; position: absolute; display: block; width: 190px; height: 400px; background: url(../images/common/fadeBox.png) repeat; z-index: 3}
+.topRightVerticalBlock { top: 0px; left: 530px; position: absolute; display: block; width: 200px; height: 50px; background: url(../images/common/fadeBox.png) repeat; z-index: 3}
+.rightBlock { top: 0px; left: 630px; position: absolute; display: block; width: 200px; height: 400px; background-color:#FFFFFF; z-index: 4}
+/* HTC Sense*/
+.htcSense { top: 590px; left: 30px; position: absolute; display: block; width: 700px; height: 108px; border-top-left-radius: 25px 25px; border-top-right-radius: 25px 25px; background-color:#f0efeb; padding: 20px; font-size: 14px; font-family: Arial, Helvetica, sans-serif; z-index: 3}
+.htcSenseDescriptionBgGround { top: 50px; left: 30px; position: absolute; display: block; width: 700px; height: 221px; background-color:#f0efeb; border-bottom-left-radius: 25px 25px; border-bottom-right-radius: 25px 25px; z-index: 3}
+.htcDescription { top: 50px; left: 430px; position: absolute; display: block; width: 250px; height: 200px; font-size: 14px; font-family: Arial, Helvetica, sans-serif; z-index: 4 }
+.title { font-size: 16px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;}
+/* icons */
+.camera { top: 140px; left: 635px; position: absolute; z-index: 4}
+.web { top: 230px; left: 635px; position: absolute; z-index: 4}
+.gift { top: 320px; left: 635px; position: absolute; z-index: 4}
+.video { top: 150px; left: 200px; position: absolute; z-index: 5}
+
+.camera a { display: block; width: 90px; height: 90px; background: url(../images/iPad/icons/camera.png) no-repeat; outline: none; -webkit-transition: opacity 1s linear;}
+.web a { display: block; width: 90px; height: 90px; background: url(../images/iPad/icons/web.png) no-repeat; outline: none; opacity: 0.1; -webkit-transition: opacity 1s linear; }
+.gift a { display: block; width: 90px; height: 90px; background: url(../images/iPad/icons/gift.png) no-repeat; outline: none; opacity: 0.1; -webkit-transition: opacity 1s linear; }
+.video a { display: block; width: 300px; height: 150px; z-index: 5}
+
+/* display */
+.displayNone { display: none; }
+.noBreakLine { display: inline; }
+/* Swipe */
+.swipeRight { top: 180px; left: 670px; width: 22px; height: 26px; position: absolute; display: block; background: url(../images/iPad/icons/right.png) no-repeat; z-index: 4 }
+.swipeLeft { top: 180px; left: 15px; width: 22px; height: 26px; position: absolute; display: block; background: url(../images/iPad/icons/left.png) no-repeat; z-index: 4 }
+/* HTC Sense Images */
+.weatherAndClock { top: 50px; left: 50px; width: 285px; height: 166px; position: absolute; display: block; background:url(../images/iPad/HTCSense/weather-and-clock.gif) no-repeat; z-index: 4 }
+.peopleCentric { top: 20px; left: 50px; width: 205px; height: 196px; position: absolute; display: block; background:url(../images/iPad/HTCSense/people-centric.gif) no-repeat; z-index: 4 }
+.customizableHomescreen { top: 20px; left: 50px; width: 267px; height: 179px; position: absolute; display :block; background: url(../images/iPad/HTCSense/customisable-homescreen.gif) no-repeat; z-index: 4 }
+.scenes { top: 20px; left: 20px; width: 349px; height: 120px; position: absolute; display: block; background:url(../images/iPad/HTCSense/scenes.gif) no-repeat; z-index: 4 }
+.friendStream { top: 20px; left: 50px; width: 344px; height: 113px; position: absolute; display: block; background:url(../images/iPad/HTCSense/friend-stream.gif) no-repeat; z-index: 4 }
+.easyReading { top: 20px; left: 50px; width: 176px; height: 186px; position: absolute; display: block; background:url(../images/iPad/HTCSense/text-reflow.gif) no-repeat; z-index: 4 }
+.feedYourBrain { top: 20px; left: 50px; width: 212px; height: 198px; position: absolute; display: block; background:url(../images/iPad/HTCSense/quick-lookup.gif) no-repeat; z-index: 4 }
+.awkardMoments { top: 20px; left: 50px; width: 298px; height: 180px; position: absolute; display: block; background:url(../images/iPad/HTCSense/polite-ringer.gif) no-repeat; z-index: 4 }
+.missCalls { top: 20px; left: 50px; width: 357px; height: 194px; position: absolute; display: block; background:url(../images/iPad/HTCSense/no-more-missed-calls.gif) no-repeat; z-index: 4 }
+
+/* SplashScreen */
+.fullScreenWhiteBlock { top: 0px; left: 0px; position: absolute; display: block; width: 768px; height: 944px; background-color:#FFFFFF; opacity: 1; z-index: 6}
+.logoFont {display: block; width: 170px; height: 29px; background: url(../images/iPad/splash/DesireLOGO.png) no-repeat; opacity: 0; z-index: 9}
+.blankPhone { top: 250px; left: 280px; position: absolute; display: block; width: 205px; height: 336px; background: url(../images/iPad/splash/htc-desire-s-blank.png) no-repeat; opacity: 0; z-index: 10}
+.phoneWithContent { top: 250px; left: 280px; position: absolute; display: block; width: 205px; height: 336px; background: url(../images/iPad/splash/htc-desire-s.png) no-repeat; opacity: 0; z-index: 9}
+.htcSenseHand {display: block; width: 178px; height: 169px; background: url(../images/iPad/splash/Push_HTCSense.png) no-repeat; opacity: 0; z-index: 8}
+.globeHand {display: block; width: 191px; height: 151px; background: url(../images/iPad/splash/Push_Globe.png) no-repeat; opacity: 0; z-index: 8}
+.cameraHand {display: block; width: 186px; height: 141px; background: url(../images/iPad/splash/Push_Camera.png) no-repeat; opacity: 0; z-index: 8}

@@ -1,0 +1,59 @@
+/* panel */
+.baseCss {background-color: #FFFFFF;} 
+/* circle of features */
+.features { top: -680px; left: -260px; position: absolute; display: block; width: 1200px; height: 1200px; background: url(../images/iPad/features/features-wheel.png) no-repeat; z-index: 2}
+.feature1 { top: 40px; left: 50px; position: absolute; width: 227px; height: 200px; background: url(../images/galaxy/features/features-wheel-video.png) no-repeat; z-index: 2}
+.feature2 { top: 40px; left: 50px; position: absolute; width: 254px; height: 200px; background: url(../images/galaxy/features/features-wheel-web.png) no-repeat; z-index: 2}
+.feature3 { top: 40px; left: 50px; position: absolute; width: 238px; height: 200px; background: url(../images/galaxy/features/features-wheel-gift.png) no-repeat; z-index: 2}
+/* Feature description */
+.description { top: 245px; left: 20px; position: absolute; display: block; width: 365px; height: 95px; background-color:#FFFFFF; opacity: 1; -webkit-transition: opacity 1s linear; font-size: 10px; font-family: Arial, Helvetica, sans-serif; z-index: 4; }
+/* logo*/
+.desireLogo { top: 20px; left: 300px; position: absolute; display: block; width: 62px; height: 33px; background: url(../images/galaxy/logo/desire_Logo.png) no-repeat; z-index: 4}
+.logo { top: 15px; left: 15px; position: absolute; display: block; width: 62px; height: 39px; background: url(../images/galaxy/logo/htc-logo.jpg) no-repeat; z-index: 4}
+/* white block*/
+.horizontalWhiteBlock { top: 0px; left: 0px; position: absolute; display: block; width: 52px; height: 400px; background: url(../images/common/whiteBlock.png) repeat; z-index: 3}
+.verticalWhiteBlock { top: 0px; left: 0px; position: absolute; display: block; width: 334px; height: 55px; background: url(../images/common/whiteBlock.png) repeat; z-index: 3}
+.bottomHorizontalBlock { top: 360px; left: 0px; position: absolute; display: block; width: 700px; height: 78px; background: url(../images/common/whiteBlock.png) repeat; z-index: 3}
+.rightVerticalBlock { top: 0px; left: 635px; position: absolute; display: block; width: 100px; height: 400px; background: url(../images/common/whiteBlock.png) repeat; z-index: 3}
+/* HTC Sense*/
+.htcSense { top: 340px; left: 15px; position: absolute; display: block; width: 370px; height: 98px; border-top-left-radius: 10px 10px; border-top-right-radius: 10px 10px; background-color:#f0efeb; padding: 10px; font-size: 10px; font-family: Arial, Helvetica, sans-serif; z-index: 3}
+.htcSenseDescriptionBgGround { top: 30px; left: 15px; position: absolute; display: block; width: 370px; height: 100px; background-color:#f0efeb; border-bottom-left-radius: 10px 10px; border-bottom-right-radius: 10px 10px; z-index: 3}
+.htcDescription { top: 10px; left: 160px; position: absolute; display: block; width: 190px; height: 200px; font-size: 10px; font-family: Arial, Helvetica, sans-serif; z-index: 4 }
+.htcSenseImage { top: 20px; left: 50px; position: absolute; display: block; z-index: 4 }
+.title { font-size: 12px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;}
+/* icons */
+.camera { top: 60px; left: 320px; position: absolute; z-index: 4}
+.web { top: 120px; left: 320px; position: absolute; z-index: 4}
+.gift { top: 170px; left: 320px; position: absolute; z-index: 4}
+.video { top: 90px; left: 100px; position: absolute; z-index: 5;}
+
+.camera a { display: block; width: 60px; height: 60px; background: url(../images/galaxy/icons/camera.png) no-repeat; outline: none; -webkit-transition: opacity 1s linear;}
+.web a { display: block; width: 60px; height: 60px; background: url(../images/galaxy/icons/web.png) no-repeat; outline: none; opacity: 0.1; -webkit-transition: opacity 1s linear; }
+.gift a { display: block; width: 60px; height: 60px; background: url(../images/galaxy/icons/gift.png) no-repeat; outline: none; opacity: 0.1; -webkit-transition: opacity 1s linear; }
+.video a { display: block; width: 150px; height: 90px; z-index: 5}
+
+/* display */
+.displayNone { display: none; }
+.noBreakLine { display: inline; }
+/* Swipe */
+.swipeRight { top: 75px; left: 350px; width: 17px; height: 20px; position: absolute; display: block; background: url(../images/galaxy/icons/right.png) no-repeat; z-index: 4 }
+.swipeLeft { top: 75px; left: 8px; width: 17px; height: 20px; position: absolute; display: block; background: url(../images/galaxy/icons/left.png) no-repeat; z-index: 4 }
+/* HTC Sense Images */
+.weatherAndClock { top: 10px; left: 20px; width: 172px; height: 100px; position: absolute; display: block; background:url(../images/galaxy/HTCSense/weather-and-clock.gif) no-repeat; z-index: 4 }
+.peopleCentric { top: 10px; left: 40px; width: 172px; height: 100px; position: absolute; display: block; background:url(../images/galaxy/HTCSense/people-centric.gif) no-repeat; z-index: 4 }
+.customizableHomescreen { top: 10px; left: 30px; width: 172px; height: 100px; position: absolute; display: :block; background: url(../images/galaxy/HTCSense/customisable-homescreen.gif) no-repeat; z-index: 4 }
+.scenes { top: 10px; left: 20px; width: 172px; height: 100px; position: absolute; display: block; background:url(../images/galaxy/HTCSense/scenes.gif) no-repeat; z-index: 4 }
+.friendStream { top: 10px; left: 20px; width: 172px; height: 100px; position: absolute; display: block; background:url(../images/galaxy/HTCSense/friend-stream.gif) no-repeat; z-index: 4 }
+.easyReading { top: 10px; left: 20px; width: 172px; height: 100px; position: absolute; display: block; background:url(../images/galaxy/HTCSense/text-reflow.gif) no-repeat; z-index: 4 }
+.feedYourBrain { top: 10px; left: 20px; width: 172px; height: 100px; position: absolute; display: block; background:url(../images/galaxy/HTCSense/quick-lookup.gif) no-repeat; z-index: 4 }
+.awkardMoments { top: 10px; left: 25px; width: 172px; height: 100px; position: absolute; display: block; background:url(../images/galaxy/HTCSense/polite-ringer.gif) no-repeat; z-index: 4 }
+.missCalls { top: 10px; left: 20px; width: 172px; height: 100px; position: absolute; display: block; background:url(../images/galaxy/HTCSense/no-more-missed-calls.gif) no-repeat; z-index: 4 }
+
+/* SplashScreen */
+.fullScreenWhiteBlock { top: 0px; left: 0px; position: absolute; display: block; width: 400px; height: 657px; background-color:#FFFFFF; opacity: 1; z-index: 6}
+.logoFont {display: block; width: 170px; height: 29px; background: url(../images/galaxy/splash/DesireLOGO.png) no-repeat; opacity: 0; z-index: 9}
+.blankPhone { top: 120px; left: 100px; position: absolute; display: block; width: 205px; height: 336px; background: url(../images/galaxy/splash/htc-desire-s-blank.png) no-repeat; opacity: 0; z-index: 10}
+.phoneWithContent { top: 120px; left: 100px; position: absolute; display: block; width: 205px; height: 336px; background: url(../images/galaxy/splash/htc-desire-s.png) no-repeat; opacity: 0; z-index: 9}
+.htcSenseHand {display: block; width: 178px; height: 169px; background: url(../images/galaxy/splash/Push_HTCSense.png) no-repeat; opacity: 0; z-index: 8}
+.globeHand {display: block; width: 191px; height: 151px; background: url(../images/galaxy/splash/Push_Globe.png) no-repeat; opacity: 0; z-index: 8}
+.cameraHand {display: block; width: 186px; height: 141px; background: url(../images/galaxy/splash/Push_Camera.png) no-repeat; opacity: 0; z-index: 8}
